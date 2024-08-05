@@ -1,0 +1,48 @@
+
+.input {
+    display: block;
+    border: darkgreen solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+    width: 100%;
+    outline: unset;
+}
+
+.inputError {
+    border: red solid 2px;
+
+}
+
+button {
+    display: block;
+    border: gray solid 1px;
+    border-radius: 10px;
+    background: darkslategrey;
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+button:disabled{
+    opacity: 0.5;
+}
+.inputWrap {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.error {
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    color: red;
+}
